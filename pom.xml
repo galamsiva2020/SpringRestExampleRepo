@@ -160,6 +160,14 @@
 					<mainClass>org.test.int1.Main</mainClass>
 				</configuration>
 			</plugin>
+		
+	<!-- Wildfly-maven-plugin details here -->
+	<plugin>
+                <groupId>org.wildfly.plugins</groupId>
+                <artifactId>wildfly-maven-plugin</artifactId>
+                <version>1.0.1.Final</version>
+        </plugin>
+        
 		</plugins>
 		
 	</build>
