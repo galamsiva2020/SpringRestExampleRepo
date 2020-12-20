@@ -65,6 +65,14 @@
 			<version>${org.slf4j-version}</version>
 			<scope>runtime</scope>
 		</dependency>
+		
+	<!-- https://mvnrepository.com/artifact/org.wildfly/wildfly-cli -->
+			<dependency>
+			    <groupId>org.wildfly</groupId>
+			    <artifactId>wildfly-cli</artifactId>
+			    <version>8.2.1.Final</version>
+			</dependency>
+		
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
